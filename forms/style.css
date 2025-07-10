@@ -45,3 +45,55 @@
 #user-information-form input[type="submit"]:hover {
     background-color: #45a049;
 }
+
+#user-information-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+#user-information-form input[type="radio"] {
+    margin-right: 5px;
+}
+
+#user-information-form input[type="date"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+#user-information-form div {
+    margin-bottom: 15px;
+}
+
+#user-information-form label {
+    font-weight: bold;
+}
+
+#user-information-form input[type="radio"] {
+    margin-right: 5px;
+}
+
+#user-information-form label[for="male"],
+#user-information-form label[for="female"],
+#user-information-form label[for="other"],
+#user-information-form label[for="helicopter"],
+#user-information-form label[for="tank"] {
+    display: inline-block;
+    margin-right: 15px;
+    font-weight: normal;
+    cursor: pointer;
+}
+
+/* Birthday input styling */
+#user-information-form input[type="date"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
