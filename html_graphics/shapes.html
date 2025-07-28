@@ -1,15 +1,28 @@
-<svg width="400" height="300">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Shapes Using Only HTML & SVG</title>
+</head>
+<body>
+  <svg width="700" height="400">
+    <!-- Rectangle -->
+    <rect x="30" y="30" width="150" height="100" fill="lightblue" stroke="black" stroke-width="2"/>
 
-  <!-- Horizontal Line -->
-  <line x1="20" y1="200" x2="380" y2="200" stroke="black" stroke-width="2" />
+    <!-- Circle -->
+    <circle cx="275" cy="80" r="60" fill="salmon" stroke="black" stroke-width="2"/>
 
-  <!-- Circle -->
-  <circle cx="80" cy="80" r="40" stroke="black" stroke-width="2" fill="red" />
+    <!-- Ellipse -->
+    <ellipse cx="450" cy="80" rx="90" ry="55" fill="lightgreen" stroke="black" stroke-width="2"/>
 
-  <!-- Rectangle -->
-  <rect x="150" y="40" width="100" height="80" stroke="black" stroke-width="2" fill="blue" />
+    <!-- Horizontal line -->
+    <line x1="20" y1="170" x2="650" y2="170" stroke="purple" stroke-width="5"/>
 
-  <!-- Ellipse -->
-  <ellipse cx="300" cy="80" rx="50" ry="30" stroke="black" stroke-width="2" fill="green" />
+    <!-- Triangle using polygon -->
+    <polygon points="150,250 100,320 200,320" fill="orange" stroke="black" stroke-width="2"/>
 
-</svg>
+    <!-- Zig-zag line-->
+    <polyline points="300,250 325,275 350,250 375,300" fill="none" stroke="blue" stroke-width="4"/>
+  </svg>
+</body>
+</html>
