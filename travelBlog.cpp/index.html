@@ -49,46 +49,42 @@
             </tr>
         </tbody>
     </table>
-
-    <h2>My Trip Video</h2>
-    <video controls width="400" style="width: 800px; height:auto;" autoplay loop muted>
-        <source src="videos/my_trip.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-    </video>
-
+    <div style="text-align: center; margin-top: 20px; padding: 20px; background-color: #ffffff; border-radius: 10px;">
+        <p>Explore these amazing destinations and plan your next adventure!</p>
+        <h2 style="text-align: center;">My Trip Video</h2>
+            <video controls width="400" style="width: 800px; height:auto; align-content: center;" autoplay loop muted>
+                <source src="videos/my_trip.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+    </div>
     <audio loop autoplay muted>
         <source src="audio/background_music.mp3" type="audio/mp3">
         Your browser does not support the audio element.
     </audio>
-    <div style="text-align: center; margin-top: 20px; padding: 20px; background-color: #ffffff; border-radius: 10px;">
+    <div style="text-align: center; margin-top: 20px; padding: 20px; background-color: #ffffff; border-radius: 10px; border: #140101;">
         <p>Enjoy the soothing background music while you explore my travel blog!</p>
-    <h2 style="background-color: #4470bb;">Share Your Travel Interest</h2>
-    <form style="width: auto; border: #000000; margin: 20px; ">
-        <label for="fullname">Full Name:</label>
-        <input type="text" id="fullname" name="fullname" required><br><br>
+        <h2 style="background-color: #4470bb;">Share Your Travel Interest</h2>
+        <form style="width: auto; border: #000000; margin: 20px; ">
+            <label for="fullname">Full Name:</label>
+            <input type="text" id="fullname" name="fullname" required><br><br>
+            <label for="destination">Destination Interest:</label>
+            <select id="destination" name="destination">
+                <option value="Japan">Japan</option>
+                <option value="Chandigarh">Chandigarh</option>
+                <option value="Delhi">Delhi</option>
+            </select><br><br>
+            <label>Type of Traveler:</label><br>
+            <input type="radio" id="solo" name="traveler" value="Solo">
+            <label for="solo">Solo</label>
+            <input type="radio" id="family" name="traveler" value="Family">
+            <label for="family">Family</label>
+            <input type="radio" id="adventure" name="traveler" value="Adventure">
+            <label for="adventure">Adventure</label><br><br>
 
-        <label for="destination">Destination Interest:</label>
-        <select id="destination" name="destination">
-            <option value="japan">Japan</option>
-            <option value="italy">Italy</option>
-            <option value="australia">Australia</option>
-        </select><br><br>
+            <label for="email">Email ID:</label>
+            <input type="email" id="email" name="email" required><br><br>
 
-        <label>Type of Traveler:</label><br>
-        <input type="radio" id="solo" name="traveler" value="Solo">
-        <label for="solo">Solo</label>
-        <input type="radio" id="family" name="traveler" value="Family">
-        <label for="family">Family</label>
-        <input type="radio" id="adventure" name="traveler" value="Adventure">
-        <label for="adventure">Adventure</label><br><br>
-
-        <label for="email">Email ID:</label>
-        <input type="email" id="email" name="email" required><br><br>
-
-        <button type="submit">Submit</button>
-    </form>
+            <button type="submit">Submit</button>
+        </form>
     </div>
-
-    <footer style="margin-top: 30px; text-align: center;">
-    </footer>
 </html>
