@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY Travel Blog</title>
+</head>
+<body style="background-color: #f0f0f0; font-family: Arial, sans-serif; color: #333;">
+    <div style="display: flex; align-items: center; justify-content: space-between; background-color: #ffffff; padding: 20px;">
+        <h1 style="margin: 0;">Welcome to My Travel Blog ✈️</h1>
+        <nav class="navbar" style="background-color: #ffffff; padding: 10px;">
+            <ul style="list-style: none; margin: 0; padding: 0; display: flex; gap: 20px;">
+                <li><a href="index.html" style="color: #140101; text-decoration: none;">Home</a></li>
+                <li><a href="about.html" style="color: #160101; text-decoration: none;">About Me</a></li>
+                <li><a href="destinations.html" style="color: #120101; text-decoration: none;">Destinations</a></li>
+                <li><a href="contact.html" style="color: #000000; text-decoration: none;">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <section align="center" style="margin-top: 20px;">
+        <img src="jyo_cookislands23_26.jpeg" alt="Travel Blog Introduction" style="width: 1000px; height: auto;">
+    </section>
+
+    <h2 style="text-align: center;">🌏 Top 3 Travel Destinations</h2>
+    <table border="1" cellpadding="8" style="border-collapse: collapse;" align="center" width="700px" height="300px">
+        <thead>
+            <tr class="table" style="background-color: #4470bb; color: #000000; text-align: center;">
+                <th style="text-align: center;">Country</th>
+                <th style="text-align: center;">Best Time to Visit</th>
+                <th style="text-align: center;">Language</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Japan</td>
+                <td>Spring (March-May)</td>
+                <td>Japanese</td>
+            </tr>
+            <tr>
+                <td>Chandigarh</td>
+                <td>Fall (September-October)</td>
+                <td>Punjabi</td>
+            </tr>
+            <tr>
+                <td>Delhi</td>
+                <td>Summer (June-August)</td>
+                <td>Hindi</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>My Trip Video</h2>
+    <video controls width="400" style="width: 800px; height:auto;" autoplay loop muted>
+        <source src="videos/my_trip.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+    <audio loop autoplay muted>
+        <source src="audio/background_music.mp3" type="audio/mp3">
+        Your browser does not support the audio element.
+    </audio>
+    <div style="text-align: center; margin-top: 20px; padding: 20px; background-color: #ffffff; border-radius: 10px;">
+        <p>Enjoy the soothing background music while you explore my travel blog!</p>
+    <h2 style="background-color: #4470bb;">Share Your Travel Interest</h2>
+    <form style="width: auto; border: #000000; margin: 20px; ">
+        <label for="fullname">Full Name:</label>
+        <input type="text" id="fullname" name="fullname" required><br><br>
+
+        <label for="destination">Destination Interest:</label>
+        <select id="destination" name="destination">
+            <option value="japan">Japan</option>
+            <option value="italy">Italy</option>
+            <option value="australia">Australia</option>
+        </select><br><br>
+
+        <label>Type of Traveler:</label><br>
+        <input type="radio" id="solo" name="traveler" value="Solo">
+        <label for="solo">Solo</label>
+        <input type="radio" id="family" name="traveler" value="Family">
+        <label for="family">Family</label>
+        <input type="radio" id="adventure" name="traveler" value="Adventure">
+        <label for="adventure">Adventure</label><br><br>
+
+        <label for="email">Email ID:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <button type="submit">Submit</button>
+    </form>
+    </div>
+
+    <footer style="margin-top: 30px; text-align: center;">
+    </footer>
+</html>
