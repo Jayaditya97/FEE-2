@@ -1,0 +1,21 @@
+@media (max-width: 600px) {
+    .boxex {
+        flex-direction: column;
+    }
+}
+
+body {
+    background-color: crimson;
+}
+
+.boxex {
+    display: flex;
+    align-items: center;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(23, 9, 224);
+    margin: 10px;
+}
